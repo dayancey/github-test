@@ -13,6 +13,8 @@
 		AC4132DA1CD0F86E003FADD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4132D81CD0F86E003FADD5 /* Main.storyboard */; };
 		AC4132DC1CD0F86E003FADD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4132DB1CD0F86E003FADD5 /* Assets.xcassets */; };
 		AC4132DF1CD0F86E003FADD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4132DD1CD0F86E003FADD5 /* LaunchScreen.storyboard */; };
+		AC4132E81CD0FA54003FADD5 /* ListScreenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4132E71CD0FA54003FADD5 /* ListScreenTableViewController.m */; };
+		AC4132EC1CD0FA8F003FADD5 /* ListViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4132EB1CD0FA8F003FADD5 /* ListViewTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AC4132DB1CD0F86E003FADD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4132DE1CD0F86E003FADD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4132E01CD0F86E003FADD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4132E61CD0FA54003FADD5 /* ListScreenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListScreenTableViewController.h; sourceTree = "<group>"; };
+		AC4132E71CD0FA54003FADD5 /* ListScreenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListScreenTableViewController.m; sourceTree = "<group>"; };
+		AC4132EA1CD0FA8F003FADD5 /* ListViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewTableViewCell.h; sourceTree = "<group>"; };
+		AC4132EB1CD0FA8F003FADD5 /* ListViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		AC4132CE1CD0F86E003FADD5 /* Testing Github */ = {
 			isa = PBXGroup;
 			children = (
+				AC4132E91CD0FA73003FADD5 /* List View */,
 				AC4132D21CD0F86E003FADD5 /* AppDelegate.h */,
 				AC4132D31CD0F86E003FADD5 /* AppDelegate.m */,
 				AC4132D51CD0F86E003FADD5 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				AC4132D01CD0F86E003FADD5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC4132E91CD0FA73003FADD5 /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				AC4132E61CD0FA54003FADD5 /* ListScreenTableViewController.h */,
+				AC4132E71CD0FA54003FADD5 /* ListScreenTableViewController.m */,
+				AC4132EA1CD0FA8F003FADD5 /* ListViewTableViewCell.h */,
+				AC4132EB1CD0FA8F003FADD5 /* ListViewTableViewCell.m */,
+			);
+			name = "List View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4132D71CD0F86E003FADD5 /* ViewController.m in Sources */,
+				AC4132E81CD0FA54003FADD5 /* ListScreenTableViewController.m in Sources */,
+				AC4132EC1CD0FA8F003FADD5 /* ListViewTableViewCell.m in Sources */,
 				AC4132D41CD0F86E003FADD5 /* AppDelegate.m in Sources */,
 				AC4132D11CD0F86E003FADD5 /* main.m in Sources */,
 			);
