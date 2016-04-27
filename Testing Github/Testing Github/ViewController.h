@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UILabel *modsTitle;
+@property (strong, nonatomic) IBOutlet UIButton *bttnONe;
+@property (strong, nonatomic) IBOutlet UIButton *bttnTwo;
 
 @end
 
